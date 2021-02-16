@@ -5,40 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalkulator</title>
     <style>
-        table td{
-           background-color: gray;
-           border-style: solid;
-           border-color:black; 
-           color:white;
-           font-size:4rem;
-           width:60px;
-           height:50px;
-        }
-
-        table td:hover{
+       *{
+          margin:0;
+          padding:0;
+       }
+        button:hover{
             background-color: lightgray;
             border-color:lightslategray;
             color:black;
         }
+        button{
+         background-color: gray;
+         color:white;
+         font-size:4rem;
+         width:60px;
+         height:80px;
+        }
+        div{
+         font-size:2rem;
+        }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <td>C</td> <td> </td> <td> </td><td>/</td>
-         </tr>
-         <tr>
-            <td>7</td> <td>8</td> <td>9</td><td>*</td>
-         </tr>
-         <tr>
-            <td>4</td> <td>5</td> <td>6</td><td>-</td>
-         </tr>
-         <tr>
-            <td>1</td> <td>2</td> <td>3</td><td>+</td>
-         </tr>
-         <tr>
-            <td> </td> <td>0</td> <td> </td><td>=</td>
-         </tr>
-    </table>
+
+    <button id="C">C</button><button> .</button><button> .</button><button id="/">/</button><br>
+    <button id="liczba" value="7">7</button><button id="liczba" value="8">8</button><button id="liczba" value="9">9</button><button id="*">*</button><br>
+    <button id="liczba" value="4">4</button><button id="liczba" value="5">5</button><button id="liczba" value="6">6</button><button id="-">-</button><br>
+    <button id="liczba" value="1">1</button><button id="liczba" value="2">2</button><button id="liczba" value="3">3</button><button id="+">+</button><br>
+    <button >.</button><button  id="liczba" value="0">0</button><button >.</button><button id="=">=</button><br>
+  <br><br>
+    <div>Wynik to: <p id="wynik"></p></div>
+
+    <script>
+      let liczba1=document.getElementsById("liczba");
+      let dodawanie=document.getElementById("+");
+      let odejmowanie=document.getElementById("-");
+      let dzielenie=document.getElementById("/");
+      let mnozenie=document.getElementById("*");
+      let liczba2=document.getElementById("liczba");
+
+
+       switch(){
+          case 
+       }
+    </script>
 </body>
 </html>
